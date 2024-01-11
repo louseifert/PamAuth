@@ -2,7 +2,8 @@
 
 ## C++ wrapper for the C pam libraries to make it trivial for a quick user check. 
 
-I was getting ready to add this to another project and I figured why not create a class that allows you to call the check user in one function and possibly extend it to ask for user credentials in the gui... the initial focus was on the command line. Created to allow mere mortals to add linux user level auth to a command line application. 
+This library was designed to allow you to quickly add per use authentication to any command line operation 
+similar to the authentication requirement of sudo. The benefit of doing this is if your user account has been compromised through a browser or some other application they won't be able to execute what ever function you are protecting with this. 
 #
 ## Table of contents.
 
